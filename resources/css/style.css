@@ -1,20 +1,49 @@
 /* Universal Styles */
 body {
-    font-family: 'Ubuntu', sans-serif;
-    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
 }
 
 /* Banner */
+header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.banner-left {
+    display: inline-flex;
+    align-items: center;
+}
+
 .banner-left img {
     height: 64px;
-    margin-left: 24px;
 }
 
 .banner-left .colmar {
     font-weight: bold;
+    color: #404040;
+}
+
+.banner-left .academy {
+    color: #A0A0A0;
 }
 
 .banner-left .colmar,
 .banner-left .academy {
     font-size: 32px;
+}
+
+.banner-right {
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    color: #404040;
+    padding-left: 16px;
 }
