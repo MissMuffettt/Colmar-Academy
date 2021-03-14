@@ -1,0 +1,20 @@
+/* Universal Styles */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: darkslategray;
+}
+
+/* Banner */
+.banner-left img {
+    height: 64px;
+    margin-left: 24px;
+}
+
+.banner-left .colmar {
+    font-weight: bold;
+}
+
+.banner-left .colmar,
+.banner-left .academy {
+    font-size: 32px;
+}
