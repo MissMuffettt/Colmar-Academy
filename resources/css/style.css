@@ -1,7 +1,7 @@
 /* Universal Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #808080;
+    color: #404040;
 }
 
 /* Banner Section */
@@ -28,7 +28,6 @@ header a {
 
 .banner-left .colmar {
     font-weight: bold;
-    color: #404040;
 }
 
 .banner-left .academy {
@@ -44,7 +43,6 @@ header a {
     font-size: 18px;
     display: inline-flex;
     align-items: center;
-    color: #404040;
     padding-left: 16px;
 }
 
@@ -56,4 +54,12 @@ header a {
 .start-here img {
     width: 60%;
     padding: 32px 24px;
+}
+
+.start-here h1 {
+    font-size: 64px;
+}
+
+.start-here h3 {
+    font-size: 32px;
 }
